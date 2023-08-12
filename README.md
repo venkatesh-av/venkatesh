@@ -18,10 +18,7 @@ You can watch the example video by clicking [here](https://www.loom.com/share/72
 - Then choose "checklist and datetime."
 - The delete option is only set for the "section."
 - Everything else is static.
-- You can go back to the main page by clicking "finish authoring."
-
-
-## link to see website: https://workroom-assignment-figma.vercel.app/
+- You can go back to the main page by clicking "finish authoring.
 
 
   
