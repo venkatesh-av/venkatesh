@@ -3,7 +3,7 @@
 
 ## Example Video
 
-You can watch the example video by clicking [here](https://www.loom.com/share/72f390d4551d488c8b30db6de92ab3ad?sid=761bc39c-ca85-44fc-a126-88840c93a243).
+You can watch the example video by clicking [here](https://www.loom.com/share/843de5e84e0645ebae822c1fc7858c32).
 
 
 ## Page-1
