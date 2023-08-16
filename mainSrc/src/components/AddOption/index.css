@@ -1,0 +1,46 @@
+.radio-button {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 9999px;
+  border: 0.5px #dadada solid;
+}
+
+.checklist-item {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.checklist-text {
+  width: 100%;
+  height: 100%;
+  color: #7d7676;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding: 6px;
+}
+
+.checklist-container {
+  display: flex;
+  padding: 16px;
+  padding-bottom: 0px;
+}
+
+
+.checklist-text2{
+  color:black;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding: 6px;
+}

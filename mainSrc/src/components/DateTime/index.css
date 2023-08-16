@@ -1,0 +1,47 @@
+/* .dis {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .box-checklist {
+  width: 100%;
+  height: 100%;
+  background: #f7f8fa;
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+} */
+
+.add-an-option {
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.display-flex-box {
+  margin: 0px;
+}
+.image-text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #7d7676;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding: 50px;
+}
+
+.field-auto-des {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+}

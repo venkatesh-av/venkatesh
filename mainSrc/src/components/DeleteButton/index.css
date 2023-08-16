@@ -1,0 +1,20 @@
+.delete-div {
+  width: 130px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 1.5%;
+  height: 40px;
+  border: 0.5px #dadada solid;
+  font-family: Glacial Indifference;
+  border-radius: 16px;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.delete-item {
+  width: 20px;
+  margin-right: 10px;
+}

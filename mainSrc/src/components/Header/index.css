@@ -1,0 +1,114 @@
+.main-top-section {
+  display: flex;
+  height: 10vh;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 26px 20px -20px #bfbfbf;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-1-section {
+  /* width: 100%;
+  height: 100%; */
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.workroom-text {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hr-line {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.cqt-system-text {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bell-icon-div {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+.bell-icon {
+  width: 20px;
+  height: 22.01px;
+  left: 2px;
+  top: 1px;
+  position: absolute;
+
+  /* Add any other styling properties */
+}
+/* 
+.bell-icon-noti-div {
+  width: 100%;
+  height: 100%;
+} */
+
+.bell-red-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  fill: #ed0000;
+  stroke-width: 1px;
+  stroke: #ed0000;
+}
+
+/* .icon-profile-div {
+  position: relative;
+} */
+
+.profile-text {
+  color: black;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.admin-text {
+  color: #7d7676;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .main-top-section {
+    width: 200vw;
+  }
+}

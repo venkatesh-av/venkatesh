@@ -1,0 +1,23 @@
+.label-with-logo-container {
+  display: flex;
+  background: white;
+  border: 0.5px #dadada solid;
+  height: 40px;
+  align-items: center;
+  padding-left: 10px;
+  max-width: 20vw;
+  border-right-width: 0px;
+}
+
+.label-with-logo-text {
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 10px;
+}
+
+.label-with-logo-container:hover {
+  background: rgba(208, 235, 255, 0.65);
+}

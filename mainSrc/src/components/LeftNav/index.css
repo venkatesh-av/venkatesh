@@ -1,0 +1,421 @@
+.side-bar-container {
+  width: 100px;
+  min-height: 86vh;
+  margin-top: 2px;
+  background: white;
+  border: 0.5px #dadada solid;
+  border-top-width: 0px;
+  padding-top: 6px;
+}
+.main-left-side-bg {
+  background: #f7f8fa;
+}
+
+.side-icon-bg {
+  background: white;
+  margin: 16px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+}
+
+.home-img {
+  width: 40px;
+}
+
+.hr-line-home {
+  border: 0.5px #dadada solid;
+  margin: 16px;
+}
+
+.time-img {
+  margin: 16px;
+  width: 65px;
+}
+
+.tool-image {
+  margin: 16px;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+}
+
+.tool-image-edit {
+  width: 40px;
+}
+
+.hr-tool-right {
+  background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+  border: 0.5px #dadada solid;
+  height: 60px;
+}
+
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  color: #00c6fb;
+  align-items: center;
+}
+
+/* body */
+
+.sheets-firstpage {
+  background: white;
+  border-radius: 11px;
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  border: 0.5px #dadada solid;
+}
+
+.sheets-firstpage-text {
+  width: 100%;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.flex-items1 {
+  display: flex;
+}
+
+.tool-img-sheet {
+  margin: 16px;
+  text-align: center;
+  border-radius: 11px;
+  background-color: white;
+}
+
+.body-first-main-container {
+  margin: 16px;
+  display: flex;
+  height: fit-content;
+  width: 50vw;
+  justify-content: space-between;
+}
+
+.search-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 38px;
+  border: 0.5px #e5e5e5 solid;
+  margin-left: 20px;
+}
+
+.search-text {
+  width: 100%;
+  height: 100%;
+  color: #7d7676;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 20px;
+}
+
+.option-div {
+  color: #7d7676;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-style: italic;
+  font-weight: 400;
+  padding: 16px;
+  /* width: fit-content; */
+  margin-left: 16px;
+  width: 200px;
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+  background: white;
+}
+
+.cta-button {
+  padding: 10px;
+  padding-top: 16px;
+  width: 180px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 198, 251, 0.9) 0%,
+    rgba(0, 91, 234, 0.9) 100%
+  );
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+}
+
+.author-button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-left: 10px;
+}
+
+.flex-items2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.no-sheets-here {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #7d7676;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.no-sheets-here-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .main-left-side-bg {
+    background: #f7f8fa;
+    width: 200vw;
+    height: 190vh;
+  }
+}
+
+/* index.css */
+.modal-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* pop up item  */
+
+.how-do-you-text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+
+.card-1-1-blue {
+  background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+  border-radius: 11px;
+  padding: 20px;
+  width: fit-content;
+  margin-bottom: 20px;
+  border: 0.5px #dadada solid;
+}
+
+.card-1-1 {
+  color: black;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.card-1-1-text {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.option-div {
+  height: 50px;
+}
+
+.popup-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 20px;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+}
+
+.top-new-sheet-details {
+  background: #d0ebff;
+  border: 0.5px #dadada solid;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.sheet-name-label {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 20px;
+}
+
+.sheet-name-input {
+  background: white;
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+.button-outer {
+  background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+  border-radius: 11px;
+  border: 0.5px #dadada solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+.button-start {
+  color: white;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.text-top-new-details {
+  color: black;
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.flex-items3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.startAuthB {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.auto-fill-hed {
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.auto-fill-des {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.sheetId-div {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 0.5px #dadada solid;
+  padding: 10px;
+}
+
+.sheetText {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 700;
+
+  word-wrap: break-word;
+}
+
+.container-result {
+  display: flex;
+  margin-left: 20px;
+}
+
+.result-div {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 0.5px #dadada solid;
+}
+
+.option-down {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 0.5px #dadada solid;
+}
+.main-down {
+  margin: 20px;
+}
+
+.option-down:hover {
+  background: #d0ebff;
+}
+.option-text1 {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.result-text {
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Glacial Indifference;
+  font-weight: 400;
+  word-wrap: break-word;
+}
